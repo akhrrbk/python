@@ -1,0 +1,19 @@
+*****************************
+mystring = "Hello World"
+for a in range(0, len(mystring)):
+    if(mystring[a] == 'r'):
+        print(mystring[a])
+*****************************
+text1 = "ink"
+text2 = "tinker"
+
+for b in range(0, len(text2)):
+    if(text1[0] == text2[b]):
+        print(text2[b:b+3])
+*****************************
+print("What's your full name, please?")
+fullname = input()
+for a in range(0, len(fullname)):
+    if(fullname[a]==' '):
+        firstName = fullname[0:9]
+        lastName = fullname[9:len(fullname)]
