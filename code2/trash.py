@@ -120,3 +120,27 @@ def confusion(table):
 
 print(confusion(confusion(confusion(table))))
 '''
+
+# my_list = []
+# for i in range(1, 11):
+#     my_list.append(i)
+# print(my_list)
+
+# counter = 0
+
+# for item in my_list:
+#     counter += item 
+# print(counter)
+
+# for _ in range(0, 10, 2):
+#     print()
+
+#print(list(range(1, 11))) #output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+'''
+for char in enumerate('man'):
+    print(char)
+'''
+
+value = 0.0
+output = int(value >= 0)
+print(output)
